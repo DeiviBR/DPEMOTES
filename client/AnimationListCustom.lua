@@ -720,22 +720,34 @@ CustomDP.PropEmotes = {
 	["thumb02"] = {
         "smokingweapon@animation",
         "smokingweapon_clip",
-        "~b~Thumb 02 (pistola+cigarro)",
+        "~b~Thumb 02",
 		AnimationOptions = {
             EmoteMoving = false,
             EmoteLoop = true,
-            Prop = "prop_phone_ing_02_loda",
-            PropBone = 60309,
+            Prop = "ng_proc_cigarette01a",
+            PropBone = 0,
             PropPlacement = {
-                0.0600,
-                0.0,
-                0.0300,
-                -120.3812,
-                -5.0383,
-                -8.6491
-            }
-         }
-	},
+                -0.0030,
+                0.1840,
+                0.6080,
+                0,
+                0,
+                -80.0000
+            },
+            SecondProp = 'w_pi_heavypistol',
+            SecondPropBone = 0, -- Left Wrist
+            SecondPropPlacement = {
+                0.2850,
+                0.5010,
+                0.4250,
+                0,
+                0,
+			   90.0000
+            },
+            EmoteLoop = true,
+            EmoteMoving = false
+        }
+    },
 	["thumb05"] = {
         "carpose@animation",
         "carpose_clip",
